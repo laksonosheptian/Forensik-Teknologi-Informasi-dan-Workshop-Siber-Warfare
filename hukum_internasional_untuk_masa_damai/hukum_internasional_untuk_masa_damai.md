@@ -64,6 +64,6 @@ Ringkasan konseptual berbasis literatur utama (mis. *Tallinn Manual 2.0*, dokume
 Konten ringkasan ini dirilis di bawah **CC BY 4.0**.
 
 ## Di Buat Oleh 
-- Sertu Keu Laksono Yoga Pratama.
+- Sertu Ttu Laksono Sheptian Yoga Pratama.
 - Sertu Ttg Marthen F Antaribaba
 - Pratu Mar Nur Cayanto 
