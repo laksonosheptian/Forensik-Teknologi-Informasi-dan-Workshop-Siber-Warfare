@@ -221,4 +221,4 @@
 - Respons terbaik: **koalisi atribusi**, **sanksi/retorsi**, **penegakan hukum**, dan **ketahanan teknis**.  
 - Kerja sama internasional (Budapest, norma PBB, CBMs) = kunci menurunkan eskalasi dan meningkatkan *cost* bagi pelaku.
 
-![Hukum Internasional](images/hi.png)
+![Hukum Internasional](images/siberwarfare.png)
