@@ -25,7 +25,7 @@ Topologi jaringan yang digunakan:
                 [PC1][PC2]        [PC3][PC4]        [PC5][PC6]
 ```
 <p align="center">
-  <img src="images/h1.png" alt="Topologi Jaringan" width="600"/><br>
+  <img src="Images/h1.png" alt="Topologi Jaringan" width="600"/><br>
   <b>Gambar 1.</b> Topologi Jaringan Static 3 Routing
 </p>
 ---
@@ -66,8 +66,8 @@ Router(config)# ip route 192.168.2.0 255.255.255.0 10.10.10.2
 Router(config)# ip route 192.168.3.0 255.255.255.0 10.10.10.2
 ```
 <p align="center">
-  <img src="images/h2.png" alt="Gambar 2. Konfigurasi Router0 Fa0/0" width="400"/>
-  <img src="images/h3.png" alt="Gambar 3. Konfigurasi Router0 S2/0" width="400"/>
+  <img src="Images/h2.png" alt="Gambar 2. Konfigurasi Router0 Fa0/0" width="400"/>
+  <img src="Images/h3.png" alt="Gambar 3. Konfigurasi Router0 S2/0" width="400"/>
 </p>
 
 <p align="center">
@@ -94,9 +94,9 @@ Router(config)# ip route 192.168.1.0 255.255.255.0 10.10.10.1
 Router(config)# ip route 192.168.3.0 255.255.255.0 20.20.20.1
 ```
 <p align="center">
-  <img src="images/h4.png" alt="Gambar 4. Konfigurasi Router1 Fa0/0" width="300"/>
-  <img src="images/h5.png" alt="Gambar 5. Konfigurasi Router1 S2/0" width="300"/>
-  <img src="images/h17.png" alt="Gambar 6. Konfigurasi Router1 s3/0" width="300"/>
+  <img src="Images/h4.png" alt="Gambar 4. Konfigurasi Router1 Fa0/0" width="300"/>
+  <img src="Images/h5.png" alt="Gambar 5. Konfigurasi Router1 S2/0" width="300"/>
+  <img src="Images/h17.png" alt="Gambar 6. Konfigurasi Router1 s3/0" width="300"/>
 </p>
 
 <p align="center">
@@ -121,8 +121,8 @@ Router(config)# ip route 192.168.1.0 255.255.255.0 20.20.20.2
 Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 ```
 <p align="center">
-  <img src="images/h6.png" alt="Gambar 7. Konfigurasi Router2 Fa0/0" width="400"/>
-  <img src="images/h7.png" alt="Gambar 8. Konfigurasi Router2 S2/0" width="400"/>
+  <img src="Images/h6.png" alt="Gambar 7. Konfigurasi Router2 Fa0/0" width="400"/>
+  <img src="Images/h7.png" alt="Gambar 8. Konfigurasi Router2 S2/0" width="400"/>
 </p>
 
 <p align="center">
@@ -150,9 +150,9 @@ Router(config)# ip route 192.168.1.0 255.255.255.0 20.20.20.2
 Router(config)# ip route 192.168.2.0 255.255.255.0 20.20.20.2
 ```
 <p align="center">
-  <img src="images/19.png" alt="Gambar 9. Konfigurasi Static Router0 " width="300"/>
-  <img src="images/21.png" alt="Gambar 10. Konfigurasi Static Router1" width="300"/>
-  <img src="images/23.png" alt="Gambar 11. Konfigurasi Static Router2" width="300"/>
+  <img src="Images/19.png" alt="Gambar 9. Konfigurasi Static Router0 " width="300"/>
+  <img src="Images/21.png" alt="Gambar 10. Konfigurasi Static Router1" width="300"/>
+  <img src="Images/23.png" alt="Gambar 11. Konfigurasi Static Router2" width="300"/>
 </p>
 
 <p align="center">
@@ -188,9 +188,9 @@ Router(config-router)# network 192.168.3.0
 Router(config-router)# network 20.20.20.0
 ```
 <p align="center">
-  <img src="images/18.png" alt="Gambar 12. Konfigurasi RIP Router0 " width="300"/>
-  <img src="images/20.png" alt="Gambar 13. Konfigurasi RIP Router1" width="300"/>
-  <img src="images/22.png" alt="Gambar 14. Konfigurasi RIP Router2" width="300"/>
+  <img src="Images/18.png" alt="Gambar 12. Konfigurasi RIP Router0 " width="300"/>
+  <img src="Images/20.png" alt="Gambar 13. Konfigurasi RIP Router1" width="300"/>
+  <img src="Images/22.png" alt="Gambar 14. Konfigurasi RIP Router2" width="300"/>
 </p>
 
 <p align="center">
@@ -207,8 +207,8 @@ Router(config-router)# network 20.20.20.0
 | PC2       | 192.168.1.2  | 255.255.255.0   | 192.168.1.100   |
 
 <p align="center">
-  <img src="images/h8.png" alt="Gambar 15. Konfigurasi IP PC1" width="400"/>
-  <img src="images/h9.png" alt="Gambar 16. Konfigurasi IP PC2" width="400"/>
+  <img src="Images/h8.png" alt="Gambar 15. Konfigurasi IP PC1" width="400"/>
+  <img src="Images/h9.png" alt="Gambar 16. Konfigurasi IP PC2" width="400"/>
 </p>
 
 <p align="center">
@@ -223,8 +223,8 @@ Router(config-router)# network 20.20.20.0
 | PC4       | 192.168.2.2  | 255.255.255.0   | 192.168.2.100   |
 
 <p align="center">
-  <img src="images/h10.png" alt="Gambar 17. Konfigurasi IP PC3" width="400"/>
-  <img src="images/h11.png" alt="Gambar 18. Konfigurasi IP PC4" width="400"/>
+  <img src="Images/h10.png" alt="Gambar 17. Konfigurasi IP PC3" width="400"/>
+  <img src="Images/h11.png" alt="Gambar 18. Konfigurasi IP PC4" width="400"/>
 </p>
 
 <p align="center">
@@ -239,8 +239,8 @@ Router(config-router)# network 20.20.20.0
 | PC6       | 192.168.3.2  | 255.255.255.0   | 192.168.3.100   |
 
 <p align="center">
-  <img src="images/h12.png" alt="Gambar 19. Konfigurasi IP PC5" width="400"/>
-  <img src="images/h13.png" alt="Gambar 20. Konfigurasi IP PC6" width="400"/>
+  <img src="Images/h12.png" alt="Gambar 19. Konfigurasi IP PC5" width="400"/>
+  <img src="Images/h13.png" alt="Gambar 20. Konfigurasi IP PC6" width="400"/>
 </p>
 
 <p align="center">
@@ -259,7 +259,7 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h14.png" alt="Gambar 21. Hasil uji ping PC1 ke PC6" width="500"/><br>
+   <img src="Images/h14.png" alt="Gambar 21. Hasil uji ping PC1 ke PC6" width="500"/><br>
    <b>Gambar 21.</b> Hasil uji ping PC1 ke PC6
  </p>
   ```
@@ -271,7 +271,7 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h15.png" alt="Gambar 22. Hasil uji ping PC2 ke PC3" width="500"/><br>
+   <img src="Images/h15.png" alt="Gambar 22. Hasil uji ping PC2 ke PC3" width="500"/><br>
    <b>Gambar 22.</b> Hasil uji ping PC2 ke PC3
  </p>
 
@@ -282,7 +282,7 @@ Setelah semua konfigurasi selesai:
  ```
  
  <p align="center">
-   <img src="images/h16.png" alt="Gambar 23. Hasil uji ping PC4 ke PC5" width="500"/><br>
+   <img src="Images/h16.png" alt="Gambar 23. Hasil uji ping PC4 ke PC5" width="500"/><br>
    <b>Gambar 23.</b> Hasil uji ping PC4 ke PC5
  </p>
  ```
