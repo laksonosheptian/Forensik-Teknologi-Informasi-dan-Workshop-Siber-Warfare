@@ -104,7 +104,7 @@ Justifikasi:
 **3. Diagram Visualisasi Perbedaan Fundamental**
 
 <p align="center">
-  <img src="images/gbr1.png" alt="Diagram Perbandingan" width="900"/>
+  <img src="images/gbr1.png" alt="Diagram Perbandingan" width="1200"/>
 </p>
 
 **Kesimpulan Analisis:**
@@ -242,10 +242,10 @@ Ancaman siber pada domain maritim Indonesia berpotensi menyebabkan:
 
 **Rekomendasi:**
 
-• Implementasi cybersecurity framework khusus sektor maritim
-• Enkripsi dan autentikasi data AIS/ECDIS
-• Air-gapping sistem kritis pelabuhan
-• Latihan gabungan TNI AL-Badan Siber Nasional menghadapi serangan siber maritim
+1. Implementasi cybersecurity framework khusus sektor maritim
+2. Enkripsi dan autentikasi data AIS/ECDIS
+3. Air-gapping sistem kritis pelabuhan
+4. Latihan gabungan TNI AL-Badan Siber Nasional menghadapi serangan siber maritim
 
 
 ---
