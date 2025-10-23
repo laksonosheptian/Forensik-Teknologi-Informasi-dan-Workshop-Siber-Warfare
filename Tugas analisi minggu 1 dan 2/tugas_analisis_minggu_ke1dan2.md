@@ -5,14 +5,13 @@
 ### **I. SOAL PILIHAN GANDA**
 
 **1. Menurut definisi yang disajikan dalam materi, elemen paling fundamental yang membedakan Cyber Warfare dari bentuk serangan siber lainnya adalah...**
-```
+
 Jawaban: b. Aktornya adalah negara-bangsa (atau proksi-nya)
-```
 
 **2. Pengakuan Cyberspace sebagai domain peperangan kelima berarti bahwa...**
-```
+
 Jawaban: c. Aktivitas di ruang siber dapat dianggap setara dengan aksi militer di domain fisik.
-```
+
 
 **3. Serangan yang menargetkan persepsi manusia, seperti kampanye disinformasi dan operasi psikologis (PSYOP), terjadi pada lapisan Cyberspace yang mana?**
 ```
