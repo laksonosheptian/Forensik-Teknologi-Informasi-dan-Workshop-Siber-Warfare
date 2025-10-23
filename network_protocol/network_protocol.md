@@ -1,104 +1,247 @@
-# Network Protocol
-
+Analisis Cyber Warfare
 <div align="justify">
+Repository ini berisi analisis komprehensif tentang cyber warfare, perbedaan dengan cyber crime, studi kasus Stuxnet, dan dampaknya pada pertahanan maritim Indonesia.
 
-Repository ini berisai tentang **network protocol**, arsitektur komputer jaringan, OSI layer, TCP/IP (*peacetime*).
+Bagian A: Soal Latihan Pilihan Ganda & Esai Singkat
+I. Soal Pilihan Ganda
+1. Elemen fundamental yang membedakan Cyber Warfare:
 
----
+Jawaban: b. Aktornya adalah negara-bangsa (atau proksi-nya)
 
-## 1) Network protocol
-**Network protocol** adalah  seperangkat aturan dan standar yang memungkinkan perangkat-perangkat di jaringan—seperti komputer, server, dan perangkat lain—untuk saling berkomunikasi, bertukar data, dan bekerja sama dengan cara yang terstruktur dan dapat dipahami oleh semua pihak. Tanpa protocol, data bisa hilang, rusak, atau tidak sampai ke tujuan. Protocol juga menentukan bagaimana data dibagi menjadi paket, bagaimana paket dikirim, diperiksa, dan disusun kembali di sisi penerima, sehingga komunikasi di jaringan menjadi aman, efisien, dan handal.
+Aktor negara-bangsa merupakan pembeda utama karena melibatkan tujuan geopolitik dan militer
+
+2. Pengakuan Cyberspace sebagai domain peperangan kelima:
+
+Jawaban: c. Aktivitas di ruang siber dapat dianggap setara dengan aksi militer di domain fisik
+
+Menempatkan operasi siber setara dengan operasi militer konvensional
+
+3. Serangan yang menargetkan persepsi manusia:
+
+Jawaban: c. Cognitive Layer
+
+Berfokus pada persepsi, keyakinan, dan proses pengambilan keputusan manusia
+
+4. Titik balik serangan siber pertama yang melumpuhkan infrastruktur digital:
+
+Jawaban: c. Serangan Siber terhadap Estonia (2007)
+
+Serangan DDoS masif yang melumpuhkan perbankan, media, dan layanan pemerintah
+
+5. Tindakan proaktif di luar jaringan sendiri:
+
+Jawaban: b. Operasi Siber Ofensif (OCO)
+
+Melibatkan proyeksi kekuatan ofensif untuk mencapai tujuan militer
+
+II. Jawaban Esai Singkat
+6. Karakteristik unik Cyberspace:
+
+Jawaban: Dua karakteristik unik cyberspace adalah batas geografis yang kabur (serangan dapat dilancarkan dari mana saja ke mana saja) dan tingkat anonimitas yang tinggi. Hal ini mengubah sifat konflik karena membuat identifikasi pelaku menjadi sulit, mempercepat eskalasi, dan mengaburkan garis antara keadaan damai dan perang.
+
+7. Perbedaan fundamental Cyber Warfare vs Cyber Crime:
+
+Jawaban: Perbedaan fundamentalnya terletak pada motivasinya: Cyber Warfare dimotivasi oleh tujuan geopolitik atau militer suatu negara, sedangkan Cyber Crime dimotivasi oleh keuntungan finansial atau pribadi.
+
+Contoh: Cyber Warfare: Serangan Stuxnet untuk mengganggu program nuklir Iran. Cyber Crime: Ransomware WannaCry yang meminta tebusan uang.
+
+8. Pentingnya insiden Morris Worm:
+
+Jawaban: Morris Worm dianggap penting karena demonstrasi pertama bagaimana sebuah program dapat menyebar dengan cepat dan melumpuhkan sebagian besar internet awal, yang membuktikan kerentanan fundamental dalam jaringan terhubung dan memicu lahirnya bidang keamanan siber yang terorganisir.
+
+9. Mission Assurance dalam Operasi Siber:
+
+Jawaban: Mission Assurance adalah upaya untuk memastikan bahwa misi atau operasi kritis dapat terus berjalan meskipun terjadi serangan atau gangguan siber. Ini menjadi tujuan utama DCO karena fokusnya bergeser dari sekadar "melindungi jaringan" menjadi "menjamin kelangsungan fungsi operasional" yang vital.
+
+10. Signifikansi serangan Stuxnet:
+
+Jawaban: Stuxnet dianggap "melintasi Rubicon" karena ini adalah senjata siber pertama yang secara fisik merusak dan menghancurkan infrastruktur kritis di dunia nyata (pusat pemrosesan nuklir Iran), sehingga membuktikan bahwa serangan digital dapat memiliki konsekuensi fisik yang berbahaya seperti senjata konvensional.
 
 </div>
-
-<div align="center">
-    <img src="images/g1.jpeg" width="400">
-</div>
-
----
-
-## 2) Hardware, Kernel, OS, Apps, User, CPU, Process
+Bagian B: Tugas Analisis dan Studi Kasus
+Tugas 1: Analisis Komparatif – Cyber Warfare vs. Cyber Crime
 <div align="justify">
+Deskripsi Insiden:
 
-- **Hardware**: Komponen fisik/perangkat keras komputer seperti CPU, RAM, harddisk, keyboard, dan layar.  
-- **Kernel**: Bagian inti dari OS yang mengatur komunikasi antara hardware dan software.  
-- **OS**: Sistem operasi, software yang mengelola hardware dan menyediakan lingkungan untuk aplikasi, misal Windows, Linux, macOS.  
-- **Apps**: Program atau aplikasi yang digunakan pengguna, misal browser, game, atau pengolah kata.  
-- **User**: Pengguna komputer yang berinteraksi dengan OS dan aplikasi.  
-- **CPU (Central Processing Unit)**: Otak komputer, tempat semua perhitungan dan instruksi dijalankan.  
-- **Process**: Program yang sedang berjalan di komputer, dikelola oleh OS agar CPU bisa mengeksekusi instruksi secara teratur.  
+Insiden ALFA: Kelompok meretas sistem perbankan nasional dan mencuri dana miliaran rupiah menggunakan ransomware dari pasar gelap, beroperasi dari Eropa Timur.
+
+Insiden BETA: Fasilitas pengolahan air milik negara mengalami malfungsi sistem kontrol industri, ditemukan malware kustom sangat canggih yang hanya menargetkan PLC spesifik, tanpa permintaan tebusan, terjadi saat ketegangan diplomatik.
+
+1. Analisis Komparatif Berdasarkan Kriteria:
+
+Kriteria	Insiden ALFA	Insiden BETA
+Aktor	Kelompok kriminal (Eropa Timur)	Negara bangsa (state-sponsored)
+Motivasi	Keuntungan finansial	Tujuan geopolitik/strategis
+Target	Sistem perbankan	Infrastruktur kritis nasional
+Metodologi	Ransomware komersial	Malware kustom canggih
+Tujuan Akhir	Pencurian dana	Destabilisasi nasional
+2. Klasifikasi dan Justifikasi:
+
+Insiden ALFA → Cyber Crime
+
+Motif ekonomi murni (pencurian dana)
+
+Menggunakan tools komersial yang tersedia umum
+
+Target sektor finansial untuk keuntungan pribadi
+
+Tidak ada indikasi tujuan politik atau militer
+
+Insiden BETA → Cyber Warfare
+
+Target infrastruktur kritis nasional (strategis)
+
+Malware kustom yang sangat spesifik menunjukkan sumber daya negara
+
+Tidak ada permintaan tebusan - motif non-ekonomi
+
+Terjadi dalam konteks ketegangan diplomatik (motif geopolitik)
+
+3. Diagram Visualisasi Perbedaan Fundamental:
+
+<div align="center"> <img src="images/gbr1.png" width="600"> </div>
+Kesimpulan Analisis:
+Insiden ALFA menunjukkan karakteristik kriminal siber klasik dengan motif ekonomi, sementara Insiden BETA mengindikasikan operasi perang siber state-sponsored yang bertujuan untuk mengganggu stabilitas nasional melalui target infrastruktur kritis. Perbedaan fundamental terletak pada aktor, motivasi, dan dampak strategis dari masing-masing insiden.
 
 </div>
-
-<div align="center">
-    <img src="images/g2.jpeg" width="400">
-</div>
-
----
-
-## 3) ISO-OSI (Open Systems Interconnection) Model 
+Tugas 2: Studi Kasus Mendalam – Anatomi Serangan Stuxnet
 <div align="justify">
+1. Fase Utama Serangan Stuxnet:
 
-**OSI** adalah standar konseptual yang membagi komunikasi jaringan menjadi 7 lapisan, supaya perangkat berbeda bisa saling berkomunikasi dengan terstruktur.
+Fase 1: Infiltrasi Awal & Menjembatani Air Gap
 
-**7 Lapisan OSI dari atas ke bawah:**
+Stuxnet menyebar melalui removable drive (USB) yang terinfeksi
 
-- **Application Layer (Lapisan Aplikasi)** → Tempat aplikasi jaringan berinteraksi, misal browser, email, FTP.  
-- **Presentation Layer (Lapisan Presentasi)** → Mengubah data agar bisa dimengerti, misal enkripsi, kompresi, format file.  
-- **Session Layer (Lapisan Sesi)** → Mengatur komunikasi antara dua perangkat, termasuk membuka dan menutup sesi.  
-- **Transport Layer (Lapisan Transport)** → Mengatur pengiriman data, memastikan sampai dengan benar (TCP/UDP).  
-- **Network Layer (Lapisan Jaringan)** → Menentukan rute data sampai tujuan, misal IP.  
-- **Data Link Layer (Lapisan Data Link)** → Mengatur pengiriman data dalam bentuk frame antar perangkat di jaringan lokal.  
-- **Physical Layer (Lapisan Fisik)** → Media fisik untuk mengirim data, misal kabel, sinyal, radio.  
+Memanfaatkan zero-day vulnerability dalam Windows untuk eksekusi otomatis
+
+Menjembatani air gap dengan menginfeksi workstation yang terhubung ke jaringan internal PLC
+
+Fase 2: Eskalasi Hak Akses & Persebaran Lateral
+
+Mengeksploitasi zero-day vulnerability kedua untuk eskalasi privilege
+
+Menyebar melalui jaringan internal menggunakan kredensial yang dicuri
+
+Mencari sistem SCADA dan PLC target secara spesifik
+
+Fase 3: Identifikasi & Verifikasi Target
+
+Memindai dan mengidentifikasi PLC Siemens S7-300/400 tertentu
+
+Memverifikasi bahwa PLC tersebut mengontrol sentrifugal nuklir IR-1
+
+Hanya mengaktifkan payload pada sistem yang memenuhi kriteria target
+
+Fase 4: Sabotase Fisik & Penipuan
+
+Sabotase Fisik: Memodifikasi kode PLC untuk mengubah kecepatan sentrifugal
+
+Penipuan/Penyembunyian: Mengirim data normal palsu ke ruang kontrol
+
+Fase 5: Pemeliharaan Akses & Evasi
+
+Menginstal rootkit untuk menyembunyikan keberadaan malware
+
+Mempertahankan akses untuk potensi serangan lanjutan
+
+Membersihkan jejak untuk menghindari deteksi
+
+2. Mekanisme Kunci Efektivitas Stuxnet:
+
+Mekanisme Sabotase Fisik:
+Stuxnet memanipulasi kecepatan sentrifugal dengan pola akselerasi dan deselerasi ekstrem yang menyebabkan keausan mekanis cepat dan kerusakan fisik permanen.
+
+Mekanisme Penipuan/Penyembunyian:
+Mengimplementasikan man-in-the-middle attack dengan merekam data operasi normal dan memutar ulang data tersebut ke operator.
+
+3. Diagram Alur Serangan Stuxnet:
+
+<div align="center"> <img src="images/gbr2.png" width="600"> </div>
+Poin Kritis Keberhasilan Stuxnet:
+
+Multi-stage infiltration yang efektif menembus isolasi fisik
+
+Target specificity yang hanya mengaktifkan diri pada lingkungan tertentu
+
+Dual mechanism yang menggabungkan sabotase fisik dengan penipuan monitoring
+
+Persistence yang mempertahankan akses sambil menghindari deteksi
 
 </div>
-
-<div align="center">
-    <img src="images/g3.jpeg" width="400">
-</div>
-
----
-
-## 4) Alur komunikasi User–Client–Server dalam OSI Model
+Tugas 3: Analisis Kontekstual – Dampak Cyber Warfare pada Pertahanan Maritim Indonesia
 <div align="justify">
+1. Sistem/Aset Digital Paling Rentan dan Kritis:
 
-- **User** → memberi perintah lewat aplikasi.  
-- **Client (App)** → mengirim request ke server melalui OSI Layers → Network.  
-- **Server** → memproses dan mengirim response kembali ke client.  
-- **Hasil** → akhirnya ditampilkan ke User.  
+a. AIS (Automatic Identification System)
+
+Fungsi: Sistem pelacakan dan identifikasi kapal otomatis
+
+Kerentanan: Data tidak terenkripsi, mudah dimanipulasi
+
+Kritisitas: Tinggi - menjadi dasar awareness maritim
+
+b. ECDIS (Electronic Chart Display and Information System)
+
+Fungsi: Sistem navigasi digital dan pemetaan elektronik
+
+Kerentanan: Kerentanan pada update charts dan integrasi GPS
+
+Kritisitas: Vital - navigasi keselamatan pelayaran
+
+c. Port Management System (Terminal Operating System)
+
+Fungsi: Mengelola operasional pelabuhan, crane, dan logistik
+
+Kerentanan: Terhubung ke jaringan administrasi pelabuhan
+
+Kritisitas: Strategis - mempengaruhi rantai pasok nasional
+
+2. Skenario Serangan Siber Realistis:
+
+Skenario 1: AIS Spoofing Attack
+
+Vektor Serangan: Injeksi data AIS palsu melalui transmitter ilegal
+
+Konsekuensi: Kapal komersil dialihkan ke perairan berbahaya, tabrakan kapal, gangguan logistik nasional, kerugian ekonomi besar
+
+Skenario 2: ECDIS/GPS Spoofing
+
+Vektor Serangan: Manipulasi sinyal GPS dan corrupt data chart ECDIS
+
+Konsekuensi: KRI dan kapal komersil tersesat, kandas di perairan dangkal, gangguan operasi patroli maritim, ancaman kedaulatan
+
+Skenario 3: Port System Ransomware
+
+Vektor Serangan: Spear-phishing ke admin pelabuhan + ransomware pada TOS
+
+Konsekuensi: Pelabuhan utama lumpuh, rantai pasok terputus, kerugian ekonomi $100-200 juta/hari
+
+3. Diagram Pemetaan Ancaman Siber Maritim:
+
+<div align="center"> <img src="images/gbr3.png" width="600"> </div>
+Analisis Dampak Strategis:
+Ancaman siber pada domain maritim Indonesia berpotensi menyebabkan:
+
+Krisis kedaulatan melalui manipulasi awareness maritim
+
+Kerugian ekonomi masif akibat gangguan rantai pasok
+
+Krisis energi jika pelabuhan minyak lumpuh
+
+Dampak geopolitik terhadap posisi Indonesia sebagai poros maritim dunia
+
+Rekomendasi:
+
+Implementasi cybersecurity framework khusus sektor maritim
+
+Enkripsi dan autentikasi data AIS/ECDIS
+
+Air-gapping sistem kritis pelabuhan
+
+Latihan gabungan TNI AL-Badan Siber Nasional menghadapi serangan siber maritim
 
 </div>
-
-<div align="center">
-    <img src="images/g4.jpeg" width="400">
-</div>
-
----
-
-## 5) Alur kerja internet
-<div align="justify">
-
-- User membuka aplikasi (misalnya browser) dan mengetik alamat web, contoh: www.google.com.  
-- Client (komputer/HP) mengirim permintaan (request) ke jaringan melalui protocol (HTTP/HTTPS).  
-- DNS (Domain Name System) menerjemahkan nama domain www.google.com menjadi alamat IP (contoh: 142.250.190.78).  
-- Routing: Permintaan dikirim melewati router, switch, dan perangkat jaringan lain menuju server tujuan.  
-- Server menerima permintaan, memproses data (misalnya menyiapkan halaman web).  
-- Server mengirim balasan (response) kembali melalui internet.  
-- Client menerima data, data naik melalui lapisan OSI sampai ke aplikasi (browser).  
-- User melihat hasil di layar (misalnya halaman Google terbuka).  
-
-</div>
-
-<div align="center">
-    <img src="images/g5.png" width="400">
-</div>
-
----
-
-## Diagram OSI-TCP/IP
-<div align="center">
-    <img src="images/g6.jpg" width="400">
-</div>
+<div align="center"> **Dibuat oleh: Sertu Ttu Laksono Sheptian Yoga P** </div>
 
 ---
 
