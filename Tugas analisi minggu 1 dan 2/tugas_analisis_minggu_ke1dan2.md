@@ -1,9 +1,9 @@
-Analisis Cyber Warfare
+ANALISIS CYBER WARFARE
 <div align="justify">
 Repository ini berisi analisis komprehensif tentang cyber warfare, perbedaan dengan cyber crime, studi kasus Stuxnet, dan dampaknya pada pertahanan maritim Indonesia.
 
-Bagian A: Soal Latihan Pilihan Ganda & Esai Singkat
-I. Soal Pilihan Ganda
+BAGIAN A: SOAL LATIHAN PILIHAN GANDA & ESAI SINGKAT
+I. SOAL PILIHAN GANDA
 1. Elemen fundamental yang membedakan Cyber Warfare:
 
 Jawaban: b. Aktornya adalah negara-bangsa (atau proksi-nya)
@@ -34,7 +34,7 @@ Jawaban: b. Operasi Siber Ofensif (OCO)
 
 Melibatkan proyeksi kekuatan ofensif untuk mencapai tujuan militer
 
-II. Jawaban Esai Singkat
+II. JAWABAN ESAI SINGKAT
 6. Karakteristik unik Cyberspace:
 
 Jawaban: Dua karakteristik unik cyberspace adalah batas geografis yang kabur (serangan dapat dilancarkan dari mana saja ke mana saja) dan tingkat anonimitas yang tinggi. Hal ini mengubah sifat konflik karena membuat identifikasi pelaku menjadi sulit, mempercepat eskalasi, dan mengaburkan garis antara keadaan damai dan perang.
@@ -43,7 +43,11 @@ Jawaban: Dua karakteristik unik cyberspace adalah batas geografis yang kabur (se
 
 Jawaban: Perbedaan fundamentalnya terletak pada motivasinya: Cyber Warfare dimotivasi oleh tujuan geopolitik atau militer suatu negara, sedangkan Cyber Crime dimotivasi oleh keuntungan finansial atau pribadi.
 
-Contoh: Cyber Warfare: Serangan Stuxnet untuk mengganggu program nuklir Iran. Cyber Crime: Ransomware WannaCry yang meminta tebusan uang.
+Contoh:
+
+Cyber Warfare: Serangan Stuxnet untuk mengganggu program nuklir Iran
+
+Cyber Crime: Ransomware WannaCry yang meminta tebusan uang
 
 8. Pentingnya insiden Morris Worm:
 
@@ -58,16 +62,34 @@ Jawaban: Mission Assurance adalah upaya untuk memastikan bahwa misi atau operasi
 Jawaban: Stuxnet dianggap "melintasi Rubicon" karena ini adalah senjata siber pertama yang secara fisik merusak dan menghancurkan infrastruktur kritis di dunia nyata (pusat pemrosesan nuklir Iran), sehingga membuktikan bahwa serangan digital dapat memiliki konsekuensi fisik yang berbahaya seperti senjata konvensional.
 
 </div>
-Bagian B: Tugas Analisis dan Studi Kasus
-Tugas 1: Analisis Komparatif – Cyber Warfare vs. Cyber Crime
+BAGIAN B: TUGAS ANALISIS DAN STUDI KASUS
+TUGAS 1: ANALISIS KOMPARATIF – CYBER WARFARE vs. CYBER CRIME
 <div align="justify">
-Deskripsi Insiden:
+DESKRIPSI INSIDEN:
 
-Insiden ALFA: Kelompok meretas sistem perbankan nasional dan mencuri dana miliaran rupiah menggunakan ransomware dari pasar gelap, beroperasi dari Eropa Timur.
+Insiden ALFA:
 
-Insiden BETA: Fasilitas pengolahan air milik negara mengalami malfungsi sistem kontrol industri, ditemukan malware kustom sangat canggih yang hanya menargetkan PLC spesifik, tanpa permintaan tebusan, terjadi saat ketegangan diplomatik.
+Kelompok meretas sistem perbankan nasional
 
-1. Analisis Komparatif Berdasarkan Kriteria:
+Mencuri dana miliaran rupiah
+
+Menggunakan ransomware dari pasar gelap
+
+Beroperasi dari Eropa Timur
+
+Insiden BETA:
+
+Fasilitas pengolahan air milik negara mengalami malfungsi
+
+Ditemukan malware kustom sangat canggih
+
+Hanya menargetkan PLC spesifik
+
+Tidak ada permintaan tebusan
+
+Terjadi saat ketegangan diplomatik
+
+1. ANALISIS KOMPARATIF BERDASARKAN KRITERIA:
 
 Kriteria	Insiden ALFA	Insiden BETA
 Aktor	Kelompok kriminal (Eropa Timur)	Negara bangsa (state-sponsored)
@@ -75,7 +97,7 @@ Motivasi	Keuntungan finansial	Tujuan geopolitik/strategis
 Target	Sistem perbankan	Infrastruktur kritis nasional
 Metodologi	Ransomware komersial	Malware kustom canggih
 Tujuan Akhir	Pencurian dana	Destabilisasi nasional
-2. Klasifikasi dan Justifikasi:
+2. KLASIFIKASI DAN JUSTIFIKASI:
 
 Insiden ALFA → Cyber Crime
 
@@ -97,16 +119,16 @@ Tidak ada permintaan tebusan - motif non-ekonomi
 
 Terjadi dalam konteks ketegangan diplomatik (motif geopolitik)
 
-3. Diagram Visualisasi Perbedaan Fundamental:
+3. DIAGRAM VISUALISASI PERBEDAAN FUNDAMENTAL:
 
 <div align="center"> <img src="images/gbr1.png" width="600"> </div>
-Kesimpulan Analisis:
+KESIMPULAN ANALISIS:
 Insiden ALFA menunjukkan karakteristik kriminal siber klasik dengan motif ekonomi, sementara Insiden BETA mengindikasikan operasi perang siber state-sponsored yang bertujuan untuk mengganggu stabilitas nasional melalui target infrastruktur kritis. Perbedaan fundamental terletak pada aktor, motivasi, dan dampak strategis dari masing-masing insiden.
 
 </div>
-Tugas 2: Studi Kasus Mendalam – Anatomi Serangan Stuxnet
+TUGAS 2: STUDI KASUS MENDALAM – ANATOMI SERANGAN STUXNET
 <div align="justify">
-1. Fase Utama Serangan Stuxnet:
+1. FASE UTAMA SERANGAN STUXNET:
 
 Fase 1: Infiltrasi Awal & Menjembatani Air Gap
 
@@ -146,7 +168,7 @@ Mempertahankan akses untuk potensi serangan lanjutan
 
 Membersihkan jejak untuk menghindari deteksi
 
-2. Mekanisme Kunci Efektivitas Stuxnet:
+2. MEKANISME KUNCI EFEKTIVITAS STUXNET:
 
 Mekanisme Sabotase Fisik:
 Stuxnet memanipulasi kecepatan sentrifugal dengan pola akselerasi dan deselerasi ekstrem yang menyebabkan keausan mekanis cepat dan kerusakan fisik permanen.
@@ -154,10 +176,10 @@ Stuxnet memanipulasi kecepatan sentrifugal dengan pola akselerasi dan deselerasi
 Mekanisme Penipuan/Penyembunyian:
 Mengimplementasikan man-in-the-middle attack dengan merekam data operasi normal dan memutar ulang data tersebut ke operator.
 
-3. Diagram Alur Serangan Stuxnet:
+3. DIAGRAM ALUR SERANGAN STUXNET:
 
 <div align="center"> <img src="images/gbr2.png" width="600"> </div>
-Poin Kritis Keberhasilan Stuxnet:
+POIN KRITIS KEBERHASILAN STUXNET:
 
 Multi-stage infiltration yang efektif menembus isolasi fisik
 
@@ -168,11 +190,11 @@ Dual mechanism yang menggabungkan sabotase fisik dengan penipuan monitoring
 Persistence yang mempertahankan akses sambil menghindari deteksi
 
 </div>
-Tugas 3: Analisis Kontekstual – Dampak Cyber Warfare pada Pertahanan Maritim Indonesia
+TUGAS 3: ANALISIS KONTEKSTUAL – DAMPAK CYBER WARFARE PADA PERTAHANAN MARITIM INDONESIA
 <div align="justify">
-1. Sistem/Aset Digital Paling Rentan dan Kritis:
+1. SISTEM/ASET DIGITAL PALING RENTAN DAN KRITIS:
 
-a. AIS (Automatic Identification System)
+A. AIS (Automatic Identification System)
 
 Fungsi: Sistem pelacakan dan identifikasi kapal otomatis
 
@@ -180,7 +202,7 @@ Kerentanan: Data tidak terenkripsi, mudah dimanipulasi
 
 Kritisitas: Tinggi - menjadi dasar awareness maritim
 
-b. ECDIS (Electronic Chart Display and Information System)
+B. ECDIS (Electronic Chart Display and Information System)
 
 Fungsi: Sistem navigasi digital dan pemetaan elektronik
 
@@ -188,7 +210,7 @@ Kerentanan: Kerentanan pada update charts dan integrasi GPS
 
 Kritisitas: Vital - navigasi keselamatan pelayaran
 
-c. Port Management System (Terminal Operating System)
+C. Port Management System (Terminal Operating System)
 
 Fungsi: Mengelola operasional pelabuhan, crane, dan logistik
 
@@ -196,7 +218,7 @@ Kerentanan: Terhubung ke jaringan administrasi pelabuhan
 
 Kritisitas: Strategis - mempengaruhi rantai pasok nasional
 
-2. Skenario Serangan Siber Realistis:
+2. SKENARIO SERANGAN SIBER REALISTIS:
 
 Skenario 1: AIS Spoofing Attack
 
@@ -216,10 +238,10 @@ Vektor Serangan: Spear-phishing ke admin pelabuhan + ransomware pada TOS
 
 Konsekuensi: Pelabuhan utama lumpuh, rantai pasok terputus, kerugian ekonomi $100-200 juta/hari
 
-3. Diagram Pemetaan Ancaman Siber Maritim:
+3. DIAGRAM PEMETAAN ANCAMAN SIBER MARITIM:
 
 <div align="center"> <img src="images/gbr3.png" width="600"> </div>
-Analisis Dampak Strategis:
+ANALISIS DAMPAK STRATEGIS:
 Ancaman siber pada domain maritim Indonesia berpotensi menyebabkan:
 
 Krisis kedaulatan melalui manipulasi awareness maritim
@@ -230,7 +252,7 @@ Krisis energi jika pelabuhan minyak lumpuh
 
 Dampak geopolitik terhadap posisi Indonesia sebagai poros maritim dunia
 
-Rekomendasi:
+REKOMENDASI:
 
 Implementasi cybersecurity framework khusus sektor maritim
 
