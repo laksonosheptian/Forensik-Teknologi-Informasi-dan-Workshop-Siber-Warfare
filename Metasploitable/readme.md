@@ -25,7 +25,7 @@ Repository ini berisi dokumentasi hasil scanning Nmap pada host **192.168.100.15
 - **-Pn** : Menganggap host hidup (skip host discovery)  
 - **-p-** : Memindai semua 65535 port TCP  
 - **-A** : OS detection, service version, script scanning, traceroute  
-- **target** : IP 192.168.100.10  
+- **target** : IP 192.168.100.15 
 
 ---
 
