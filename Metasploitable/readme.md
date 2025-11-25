@@ -1,6 +1,6 @@
 # 🔍 Laporan Hasil Scan Nmap – Metasploitable2
 
-Repository ini berisi dokumentasi hasil scanning Nmap pada host **192.168.100.10** (Metasploitable2).
+Repository ini berisi dokumentasi hasil scanning Nmap pada host **192.168.100.15** (Metasploitable2).
 
 ---
 
